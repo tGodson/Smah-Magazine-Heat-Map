@@ -1,0 +1,131 @@
+body {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.nav-bar {
+  margin-top: 30px;
+  background: #d33a2c;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.membership {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  cursor: pointer;
+}
+
+.topics {
+  display: flex;
+  border: 3px solid white;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+}
+
+
+.nav-bar p {
+  font-weight: normal;
+}
+
+.topics a{
+text-decoration: none;
+color: white;
+}
+.fa-search {
+    padding: 12px;
+}
+
+
+
+.section-1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 500px 500px;
+}
+
+.grid-1 {
+  background-color: #d33a2c;
+
+}
+
+.grid-2 {
+  background-color: #c7372a;
+}
+
+.grid-3 {
+  background-color: #b13125;
+}
+
+.grid-4 {
+  background-color: #bc3428;
+}
+
+.grid-1 div{
+    display: flex;
+    
+}
+
+.grid-1 img{
+    width: 80px;
+    border-radius: 20px;
+    border: 5px solid white;
+    margin: 80px 0 0 100px;
+}
+
+.grid_one_p{
+    margin: 100px 0 0 10px;
+    font-weight: bold;
+}
+
+.grid_one_p1{
+    margin: 100px 0 0 10px;
+}
+
+.grid_one_p2{
+    margin: 30px 0 0 100px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.fa-comment-alt{
+margin-top: 75px;
+margin-left: 10px;
+}
+
+.grid_one_p3{
+    
+}
