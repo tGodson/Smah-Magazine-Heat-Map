@@ -1,33 +1,62 @@
-# Apple website webpage clone
+# Project Name
 
-> Microverse Project: A replica of old Apple website webpage 
+> One paragraph statement about the project.
 
-![screenshot](./app_screenshot.PNG)
+![screenshot](./app_screenshot.png)
+
+Additional description about the project and its features.
 
 ## Built With
 
 - HTML,
 - CSS
--Bootstrap
-
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/tGodson/Apple-website-clone/9353c6e87a2766b5f87f9ab91f09e0a19f97e053/index.html)
+[Live Demo Link](https://livedemo.com)
+
+
+## Getting Started
+
+**This is an example of how you may give instructions on setting up your project locally.**
+**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+### Setup
+
+### Install
+
+### Usage
+
+### Run tests
+
+### Deployment
 
 
 
-👤 **Author**
+## Authors
 
-- Github: [@tGodson](https://github.com/tGodson)
-- Twitter: [@tendongze-godson](https://twitter.com/tendongze-godson)
-- Linkedin: [linkedin](https://linkedin.com/in/tendongze95)
+👤 **Author1**
+
+- Github: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+
+👤 **Author2**
+
+- Github: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/tGodson/Apple-website-clone/issues).
+Feel free to check the [issues page](issues/).
 
 ## Show your support
 
@@ -35,10 +64,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Had a lot of ideas looking at @hatemswaileh code during his code presectation
-- Inspiration - @hatemswaileh
-
-[![Is <username> available for hire?](http://hireable.me/<username>)](http://hireable.me/p/<username>)
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## 📝 License
 
