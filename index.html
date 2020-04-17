@@ -1,247 +1,338 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./style.css" type="text/css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <!-- <link rel="shortcut icon" href="./img/logo.ico"/> -->
 
-    <title>Smash Magazine Heat Map</title>
-  </head>
-  <body>
-    <div class="nav-bar">
-      <div class="logo">
-        <a href="#">
-          <img src="./images/smash-icon2.png" alt="smash-icon" />
-        </a>
-      </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./style.css" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
-      <div class="articles">
-        <i class="far fa-newspaper fa-2x"></i>
-        Articles
-        <p>Design & development</p>
-      </div>
-      <div class="books">
-        <i class="fas fa-book fa-2x"></i>
-        Books
-        <p>Physical & digital books</p>
-      </div>
-      <div class="events">
-        <i class="fas fa-ticket-alt fa-2x"></i>
-        Events
-        <p>Conferences & workshops</p>
-      </div>
-      <div class="jobs">
-        <i class="fas fa-sign fa-2x"></i>
-        Jobs
-        <p>Find work & employees</p>
-      </div>
-      <div class="membership">
-        <i class="fas fa-home fa-2x"></i>
-        Membership
-        <p>Webinars & early-birds</p>
-      </div>
-      <div class="topics">
-        <a href="#"><i class="fas fa-search"></i>Topics</a>
-      </div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- <link rel="shortcut icon" href="./img/logo.ico"/> -->
+
+  <title>Smash Magazine Heat Map</title>
+</head>
+
+<body>
+  <div class="nav-bar">
+    <div class="logo">
+      <a href="#">
+        <img src="./images/smash-icon2.png" alt="smash-icon" />
+      </a>
     </div>
 
-    <section>
-      <div class="section-1">
-        <div class="grid-1">
-          <div>
-            <img src="images/philip-kiely-200px.jpg" alt="image" />
-            <p class="grid_one_p">philip-kiely</p>
-            <p class="grid_one_p1">wrote</p>
-          </div>
-          <div>
-            <p class="grid_one_p2">
-              Django Highlights:<br />
-              Models, Admin, And <br />
-              Harnessing The Relational Database (Part 3)   
-            </p>
-            <i class="far fa-comment-alt"> Leave a comment</i>
-            
-          </div>
-          <div class="grid_one_p3"><p>#Apps <sup>192</sup></p>   <p>#Frameworks <sup>58</sup></p></div>
+    <div class="articles">
+      <i class="far fa-newspaper fa-2x"></i>
+      Articles
+      <p>Design & development</p>
+    </div>
+    <div class="books">
+      <i class="fas fa-book fa-2x"></i>
+      Books
+      <p>Physical & digital books</p>
+    </div>
+    <div class="events">
+      <i class="fas fa-ticket-alt fa-2x"></i>
+      Events
+      <p>Conferences & workshops</p>
+    </div>
+    <div class="jobs">
+      <i class="fas fa-sign fa-2x"></i>
+      Jobs
+      <p>Find work & employees</p>
+    </div>
+    <div class="membership">
+      <i class="fas fa-home fa-2x"></i>
+      Membership
+      <p>Webinars & early-birds</p>
+    </div>
+    <div class="topics">
+      <a href="#"><i class="fas fa-search"></i>Topics</a>
+    </div>
+  </div>
+
+  <section>
+    <div class="section-1">
+      <div class="grid-1">
+        <div>
+          <img src="images/philip-kiely-200px.jpg" alt="image" />
+          <p class="grid_one_p">philip-kiely</p>
+          <p class="grid_one_p1">wrote</p>
         </div>
-        <div class="grid-2"></div>
-        <div class="grid-3"></div>
-        <div class="grid-4"></div>
-      </div>
-    </section>
-      <section class="article-section">
-          <div class="article-wrapper">
-              <div class="article-row">
-                  <h4 class="vertical-heading"><span>Latest posts</span></h4>
-                  <div class="article-container">
-                      <div class="article" id="article-1">
-                          <article>
-                            <header>
-                                <time class="article-time" datetime="2020-04-10 09:30:00 +0000 UTC+1">6 days ago</time>
-                                <h2 class="article-heading"><a href="#">Getting started with the React hooks API</a></h2>
-                                <span>by <a>shedrack Akintayo</a></span>
-                            </header>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                                
-                            </p>
-                          </article>
-                          <div  class="read-more"><a href="#">&#8594;</a></div>
-                      </div>
-                      <div class="article" id="article-2">
-                        <article>
-                          <header>
-                              <time class="article-time" datetime="2020-04-10 09:30:00 +0000 UTC+1">6 days ago</time>
-                              <h2 class="article-heading"><a href="#">Getting started with the React hooks API</a></h2>
-                              <span>by <a href="#">shedrack Akintayo</a></span>
-                          </header>
-                          <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                              when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                             
-                          </p>
-                        </article>
-                        <div  class="read-more"><a href="#">&#8594;</a></div>
-                    </div>
-                    <div class="article" id="article-3">
-                        <article>
-                          <header>
-                              <time class="article-time" datetime="2020-04-10 09:30:00 +0000 UTC+1">6 days ago</time>
-                              <h2 class="article-heading"><a href="#">Getting started with the React hooks API</a></h2>
-                              <span>by <a href="#">shedrack Akintayo</a></span>
-                          </header>
-                          <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                              when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                              
-                          </p>
-                        </article>
-                        <div  class="read-more"><a href="#">&#8594;</a></div>
-                    </div>
-                    <div class="article" id="article-4">
-                           
-                            <div class="meow-content">
-                                <div class="article-pic">
-                                    <a href="#">
-                                        <img src="images/philip-kiely-200px.jpg" alt="image" />
-                                    </a>
-                                </div>
-                                <h1><a href="#">1.251 smashing members</a></h1>
-                                <p>
-                                    It is a long established fact that a reader will be distracted by the readable 
-                                    content of a page when looking at its layout. The point of using 
-                                    
-                                </p>
-                                <div class="button">
-                                    <button><a href="#">Explore features &#8594;</a></button><br/>
-                                    <small>Already have an account?<a>Sign In</a></small>
-                                </div>
-                            </div>
-      
-                    </div>
-                    <div class="article" id="article-5">
-                        <article>
-                          <header>
-                              <time class="article-time" datetime="2020-04-10 09:30:00 +0000 UTC+1">6 days ago</time>
-                              <h2 class="article-heading"><a>Getting started with the React hooks API</a></h2>
-                              <span>by <a href="#">shedrack Akintayo</a></span>
-                          </header>
-                          <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                              when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                              
-                          </p>
-                        </article>
-                        <div  class="read-more"><a href="#">&#8594;</a></div>
-                    </div>
-                    <div class="article" id="article-6">
-                        <article>
-                          <header>
-                              <time class="article-time" datetime="2020-04-10 09:30:00 +0000 UTC+1">6 days ago</time>
-                              <h2 class="article-heading"><a>Getting started with the React hooks API</a></h2>
-                              <span>by <a href="#">shedrack Akintayo</a></span>
-                          </header>
-                          <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                              when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                              
-                          </p>
-                        </article>
-                        <div  class="read-more"><a href="#">&#8594;</a></div>
-                    </div>
-                    <div class="article" id="article-7">
-                        <article>
-                          <header>
-                              <time class="article-time" datetime="2020-04-10 09:30:00 +0000 UTC+1">6 days ago</time>
-                              <h2 class="article-heading"><a>Getting started with the React hooks API</a></h2>
-                              <span>by <a href="#">shedrack Akintayo</a></span>
-                          </header>
-                          <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                              when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                              
-                          </p>
-                        </article>
-                        
-                        <div  class="read-more"><a href="#">&#8594;</a></div>
-                    </div>
-                    <div class="article" id="article-8">
-                        <article>
-                          <header>
-                              <time class="article-time" datetime="2020-04-10 09:30:00 +0000 UTC+1">6 days ago</time>
-                              <h2 class="article-heading"><a>Getting started with the React hooks API</a></h2>
-                              <span>by <a href="#">shedrack Akintayo</a></span>
-                          </header>
-                          <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                              when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                             
-                          </p>
-                        </article>
-                        <div  class="read-more"><a href="#">&#8594;</a></div>
-                    </div>
-                    <div class="article" id="article-9">
-                        <div>
-                            <div class="article-pic">
-                                <a href="#">
-                                    <img src="images/philip-kiely-200px.jpg" alt="image" />
-                                </a>
-                            </div>
-                                <h1><a href="#">1.251 smashing members</a></h1>
-                                <p>
-                                    It is a long established fact that a reader will be distracted by the readable 
-                                    content of a page when looking at its layout.
-                                   
-                                </p>
-                                <div class="button">
-                                    <button><a href="#">Explore features &#8594;</a></button><br/>
-                                    <small>Already have an account?<a>Sign In</a></small>
-                                </div>
-                            </div>
-
-                        </div>        
-                    </div>
-                    <div class="latest">SEE ALL LATEST ARTICLE</div>
-
-                  </div>
-              </div>
+        <div class="grid_one_p2">
+          <p>
+            Django Highlights:<br />
+            Models, Admin, And <br />
+            Harnessing The Relational Database (Part 3)
+          </p>
+          <div class="icon">
+            <i class="far fa-comment-alt"> Leave a comment</i>
           </div>
-      </section>
-  </body>
+
+        </div>
+        <div class="grid-one-hash">
+          <p>#Apps <sup>192</sup></p>
+          <p>#Frameworks <sup>58</sup></p>
+        </div>
+
+        <div class="grid-one-arrow"> <i class="fas fa-arrow-right"></i></div>
+      </div>
+      <div class="grid-2">
+        <div>
+          <img src="images/adeneye-david-abiodun.jpg" alt="image" />
+          <p class="grid_one_p">Adeleye-David-Abiodun</p>
+          <p class="grid_one_p1">wrote</p>
+        </div>
+        <div class="grid_two_p2">
+          <p>
+            Best Practises With React<br />
+            Hooks
+          </p>
+          <div class="icon1"> <i class="far fa-comment-alt "> 6 comments</i> </div>
+        </div>
+
+
+
+        <div class="grid-two-hash">
+          <p>#React <sup>32</sup></p>
+          <p>#Tools <sup>212</sup></p>
+          <p>#Techniques <sup>235</sup></p>
+        </div>
+        <div class="grid-two-arrow"> <i class="fas fa-arrow-right"></i></div>
+      </div>
+
+      <div class="grid-3">
+        <div>
+          <img src="images/anna-prenzel.jpg" alt="image" />
+          <p class="grid_one_p">Anna Prenzel</p>
+          <p class="grid_one_p1">wrote</p>
+        </div>
+        <div class="grid_three_p2">
+          <p>
+            How To Create A Particle<br />
+
+            Trail Animation In<br>
+            Javascript
+          </p>
+          <div class="icon2"> <i class="far fa-comment-alt "> 2 comments</i> </div>
+        </div>
+
+        <div class="grid-three-hash">
+          <p>#Javascript <sup>32</sup></p>
+          <p>#Animation <sup>212</sup></p>
+          
+        </div>
+
+        <div class="grid-three-arrow"> <i class="fas fa-arrow-right"></i></div>
+
+
+
+
+      </div>
+      <div class="grid-4">
+
+        <div>
+          <img src="images/andy-clarke.jpg" alt="image" />
+          <p class="grid_one_p">Andy Clarke</p>
+          <p class="grid_one_p1">wrote</p>
+        </div>
+        <div class="grid_four_p2">
+          <p>
+           Inspired Design Decisions<br />
+           With Herb Lubatin: <br>
+           Typograpghy Can Be As<br>
+           Exciting As Illustration<br>
+           And Photography
+          </p>
+          <div class="icon3"> <i class="far fa-comment-alt "> Leave comments</i> </div>
+        </div>
+
+        <div class="grid-four-hash">
+          <p>#Design <sup>434</sup></p>
+          <p>#Performance <sup>121</sup></p>
+          <p>#Optimization <sup>666</sup></p>
+          
+        </div>
+
+        <div class="grid-four-arrow"> <i class="fas fa-arrow-right"></i></div>
+
+
+
+
+      </div>
+    </div>
+   
+    </div>
+  </section>
+  <section class="article-section">
+    <div class="article-wrapper">
+        <div class="article-row">
+            <h4 class="vertical-heading"><span>Latest posts</span></h4>
+            <div class="article-container">
+                <div class="article" id="article-1">
+                    <article>
+                      <header>
+                          <time class="article-time" datetime="2020-04-10 09:30:00 +0000 UTC+1">6 days ago</time>
+                          <h2 class="article-heading"><a href="#">Getting started with the React hooks API</a></h2>
+                          <span>by <a>shedrack Akintayo</a></span>
+                      </header>
+                      <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                          
+                      </p>
+                    </article>
+                    <div  class="read-more"><a href="#">&#8594;</a></div>
+                </div>
+                <div class="article" id="article-2">
+                  <article>
+                    <header>
+                        <time class="article-time" datetime="2020-04-10 09:30:00 +0000 UTC+1">6 days ago</time>
+                        <h2 class="article-heading"><a href="#">Getting started with the React hooks API</a></h2>
+                        <span>by <a href="#">shedrack Akintayo</a></span>
+                    </header>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                       
+                    </p>
+                  </article>
+                  <div  class="read-more"><a href="#">&#8594;</a></div>
+              </div>
+              <div class="article" id="article-3">
+                  <article>
+                    <header>
+                        <time class="article-time" datetime="2020-04-10 09:30:00 +0000 UTC+1">6 days ago</time>
+                        <h2 class="article-heading"><a href="#">Getting started with the React hooks API</a></h2>
+                        <span>by <a href="#">shedrack Akintayo</a></span>
+                    </header>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        
+                    </p>
+                  </article>
+                  <div  class="read-more"><a href="#">&#8594;</a></div>
+              </div>
+              <div class="article" id="article-4">
+                     
+                      <div class="meow-content">
+                          <div class="article-pic">
+                              <a href="#">
+                                  <img src="images/philip-kiely-200px.jpg" alt="image" />
+                              </a>
+                          </div>
+                          <h1><a href="#">1.251 smashing members</a></h1>
+                          <p>
+                              It is a long established fact that a reader will be distracted by the readable 
+                              content of a page when looking at its layout. The point of using 
+                              
+                          </p>
+                          <div class="button">
+                              <button><a href="#">Explore features &#8594;</a></button><br/>
+                              <small>Already have an account?<a>Sign In</a></small>
+                          </div>
+                      </div>
+
+              </div>
+              <div class="article" id="article-5">
+                  <article>
+                    <header>
+                        <time class="article-time" datetime="2020-04-10 09:30:00 +0000 UTC+1">6 days ago</time>
+                        <h2 class="article-heading"><a>Getting started with the React hooks API</a></h2>
+                        <span>by <a href="#">shedrack Akintayo</a></span>
+                    </header>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        
+                    </p>
+                  </article>
+                  <div  class="read-more"><a href="#">&#8594;</a></div>
+              </div>
+              <div class="article" id="article-6">
+                  <article>
+                    <header>
+                        <time class="article-time" datetime="2020-04-10 09:30:00 +0000 UTC+1">6 days ago</time>
+                        <h2 class="article-heading"><a>Getting started with the React hooks API</a></h2>
+                        <span>by <a href="#">shedrack Akintayo</a></span>
+                    </header>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        
+                    </p>
+                  </article>
+                  <div  class="read-more"><a href="#">&#8594;</a></div>
+              </div>
+              <div class="article" id="article-7">
+                  <article>
+                    <header>
+                        <time class="article-time" datetime="2020-04-10 09:30:00 +0000 UTC+1">6 days ago</time>
+                        <h2 class="article-heading"><a>Getting started with the React hooks API</a></h2>
+                        <span>by <a href="#">shedrack Akintayo</a></span>
+                    </header>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        
+                    </p>
+                  </article>
+                  
+                  <div  class="read-more"><a href="#">&#8594;</a></div>
+              </div>
+              <div class="article" id="article-8">
+                  <article>
+                    <header>
+                        <time class="article-time" datetime="2020-04-10 09:30:00 +0000 UTC+1">6 days ago</time>
+                        <h2 class="article-heading"><a>Getting started with the React hooks API</a></h2>
+                        <span>by <a href="#">shedrack Akintayo</a></span>
+                    </header>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                       
+                    </p>
+                  </article>
+                  <div  class="read-more"><a href="#">&#8594;</a></div>
+              </div>
+              <div class="article" id="article-9">
+                  <div>
+                      <div class="article-pic">
+                          <a href="#">
+                              <img src="images/philip-kiely-200px.jpg" alt="image" />
+                          </a>
+                      </div>
+                          <h1><a href="#">1.251 smashing members</a></h1>
+                          <p>
+                              It is a long established fact that a reader will be distracted by the readable 
+                              content of a page when looking at its layout.
+                             
+                          </p>
+                          <div class="button">
+                              <button><a href="#">Explore features &#8594;</a></button><br/>
+                              <small>Already have an account?<a>Sign In</a></small>
+                          </div>
+                      </div>
+
+                  </div>        
+              </div>
+              <div class="latest">SEE ALL LATEST ARTICLE</div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+
 </html>
