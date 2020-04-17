@@ -20,6 +20,18 @@ body p{
 word-break: break-word;
 }
 
+button {
+  border-radius: 10px;
+  padding: 12px;
+  border: none;
+  background-color: #b13125;
+  margin-bottom: 10px;
+}
+
+.button {
+  text-align: center;
+}
+
 h2 {
   font-size: calc(1.2em + .2vw);
   margin: 0 0 1em;
@@ -289,4 +301,8 @@ transition: color .1s ease-out;
 article p {
   font-size: calc(.85em + .2vw);
   display: inline;
+}
+
+.read-more {
+  margin: 60px 0;
 }
