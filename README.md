@@ -27,9 +27,9 @@ Additional description about the project and its features.
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@haraphat01](https://github.com/haraphat01)
+- Twitter: [@haraphat01](https://twitter.com/haraphat01)
+- Linkedin: [linkedin](https://www.linkedin.com/in/arafat-akata/)
 
 ## 🤝 Contributing
 
