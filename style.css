@@ -496,19 +496,24 @@ article header {
   height: 800px;
 }
 
-.post-1,.post-2,.post-3 {
+.post-1,
+.post-2,
+.post-3 {
   grid-row: 1;
 }
 
-.post-4,.post-5 {
+.post-4,
+.post-5 {
   grid-row: 2;
 }
 
-.post-1, .post-3{
+.post-1,
+.post-3 {
   background-color: rgb(179, 179, 179);
 }
 
-.post-2, .post-4{
+.post-2,
+.post-4 {
   background-color: rgb(201, 201, 201);
 }
 
