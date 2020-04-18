@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/tGodson/Smah-Magazine-Heat-Map/4e4a79ab26dcbda8d38ab59a6700f7768a6f2be1/index.html)
+[Live Demo Link](https://rawcdn.githack.com/tGodson/Smah-Magazine-Heat-Map/00066efd8b8d73266be95aed9ad660f7f1e7230f/index.html)
 
 
 
